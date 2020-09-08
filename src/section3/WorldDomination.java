@@ -13,10 +13,7 @@ if (input.equals("yes")) {
 }
 		// 3. Otherwise, wish them good luck washing dishes.
 
-else {
-JOptionPane.showMessageDialog(null, "good luck washing dishes");
-}	
-  
+
 
 
 	}

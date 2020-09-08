@@ -20,6 +20,7 @@ public class QuizGame {
 		String C = JOptionPane.showInputDialog("blue + red = ?");
 		if (C.equals("purple")) {
 		score += 1;
+		}
 		String D = JOptionPane.showInputDialog("what is round without\n a lid and inside golden treasure is hid");
 		if (D.equals("egg")) {
 		score += 1;
@@ -28,7 +29,7 @@ public class QuizGame {
 		if (E.equals("42")) {
 		score += 1;
 		}
-		}
+		
 		JOptionPane.showMessageDialog(null, "your score is " + score);
 		
 		 
